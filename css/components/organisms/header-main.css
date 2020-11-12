@@ -4,7 +4,10 @@
   width: 100vw;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  background-image: url('./../../../img/home-banner.jpg');
+  background-image: url('./../../../img/home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .nav-container {
