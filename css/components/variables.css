@@ -1,0 +1,31 @@
+:root {
+  /* Main */
+  --background: #fffffe;
+  --headline: #00214d;
+  --paragraph: #1b2d45;
+  --button-background: #18cf97;
+  --button-text: #00214d;
+
+  /* Card */
+  --card-background: #fffffe;
+  --card-heading: #00214d;
+  --card-paragraph: #1b2d45;
+  --sub-headline: #1b2d45;
+  --card-highlight: #ff5470;
+
+  /* Secondary */
+  --secondary-background: #f2f4f6;
+  --secondary-card-background: #f2f4f6;
+  --secondary-card-text: ##1b2d45;
+  --secondary-card-heading: #00214d;
+
+  /* Alternate / Footer */
+  --alternate-background: #001534;
+  --alternate-headline: #fffffe;
+  --alternate-paragraph: #b7c9e4;
+  --link: #fde24f;
+  --alternate-card-background: #fffffe;
+  --alternate-card-headline: #00214d;
+  --alternate-card-paragraph: #1b2d45;
+  --alternate-link: #18cf97;
+}

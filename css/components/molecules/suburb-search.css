@@ -1,0 +1,28 @@
+#suburb-search-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+#suburb-search-container div {
+  margin-right: 12px;
+}
+
+#rent-or-buy-toggle {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: var(--alternate-headline);
+}
+
+#rent-or-buy-toggle span {
+  margin-right: 10px;
+}
+
+#rent-or-buy-toggle:hover {
+  cursor: pointer;
+}
+
+.active {
+  transform: rotate(180deg);
+}

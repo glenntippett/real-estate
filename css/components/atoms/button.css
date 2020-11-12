@@ -1,0 +1,22 @@
+.btn {
+  background-color: var(--button-background);
+  color: var(--button-text);
+}
+
+#go-button:hover {
+  background-color: #14b383;
+  color: var(--alternate-paragraph);
+  cursor: pointer;
+}
+
+#go-button {
+  width: 100px;
+  display: flex;
+  border-radius: 8px;
+  /* color: var(--alternate-headline); */
+  border: 1px solid var(--alternate-headline);
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}

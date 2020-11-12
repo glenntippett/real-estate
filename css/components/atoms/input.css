@@ -1,0 +1,29 @@
+input {
+  font-size: 18px;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 10px var(--button-background);
+}
+
+/* #suburb-input-field input::before {
+  content: "Search";
+  background-color: teal;
+  color: white;
+} */
+
+#suburb-input-field {
+  display: inline-block;
+  border-color: transparent;
+  appearance: none;
+}
+
+#suburb-input-field input {
+  height: 80px;
+  width: 600px;
+  padding: 0 20px;
+  border-radius: 8px;
+  border-color: none;
+  border: 1px solid black;
+}
