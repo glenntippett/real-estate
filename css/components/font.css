@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
-html { font-size: 100%; } /*16px*/
+html { font-size: 100%; letter-spacing: 0.04rem; } /*16px*/
 
 body {
   background: var(--background);
@@ -35,3 +35,7 @@ h5 { font-size: 1.25rem; }
 small, .text_small { font-size: 0.8rem; }
 
 li { font-size: 0.9em; }
+
+.nav-section-two {
+  font-weight: 200;
+}
