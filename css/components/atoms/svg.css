@@ -1,0 +1,9 @@
+#down-arrow {
+  color: white;
+  height: 3rem;
+}
+
+#down-arrow:hover {
+  cursor: pointer;
+  height: 4rem;
+}

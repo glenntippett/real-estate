@@ -58,3 +58,11 @@ ul.nav-section-two li:hover, ul.nav-section-one li:hover {
   text-align: center;
   color: var(--alternate-headline);
 }
+
+.arrow-down-container {
+  grid-column: 6 / 8;
+  grid-row: 11 /12;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
