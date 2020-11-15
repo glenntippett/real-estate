@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
-html { font-size: 100%; letter-spacing: 0.04rem; } /*16px*/
+@font-face {
+  font-family: Quicksand;
+  src: url(../../font/quicksand/Quicksand-Regular.otf);
+}
+
+html { font-size: 100%; letter-spacing: 0.02rem; } /*16px*/
 
 body {
   background: var(--background);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand','Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   color: var(--paragraph);
@@ -14,7 +19,7 @@ p { margin-bottom: 1rem; }
 
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.3;
 }
